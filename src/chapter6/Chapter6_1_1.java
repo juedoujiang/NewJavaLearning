@@ -8,8 +8,12 @@ public class Chapter6_1_1 {
 		// TODO Auto-generated method stub
 		// ´óÐ¡Ð´×ª»»
 		Scanner in = new Scanner(System.in);
+		char a = 'B';
+		char b = a++;
 		char c = 'A';
 		char d = (char)(c+'a'-'A');
+		System.out.println(a);
+		System.out.println(b);
 		System.out.println(d);
 		in.close();
 	}
